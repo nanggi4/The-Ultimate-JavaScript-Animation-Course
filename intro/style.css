@@ -6,7 +6,7 @@ body {
 section {
   display: flex;
   height: 50vh;
-  // background: gray;
+  background: gray;
   justify-content: center;
   align-items: center;
 }
