@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  background:  black;
+  color: white;
+  transition: background 0.75s ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(74, 74, 74);
+}
+
+nav {
+  min-height: 10vh;
+  background: rgb(40, 40, 40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.5s ease-out;
+  opacity: 1;
+}
+
+.nav-slide {
+  transform: translateY(-100%);
+}
+
+p {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade {
+  opacity: 0;
+}
