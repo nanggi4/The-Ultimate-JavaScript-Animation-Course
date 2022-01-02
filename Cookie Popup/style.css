@@ -23,6 +23,7 @@ body {
   font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .text {
@@ -41,6 +42,7 @@ body {
 .cookie-subtitle {
   font-weight: bold;
   font-size: 0.7rem;
+  margin: 0.75rem 0;
 }
 
 button {
